@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #ffffff;
+}
+
+.title {
+	width:max-content;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center; 
+	margin-bottom: 1em;
+	margin-top: 3em;
+	font-family: JejuMyeongjo;
+	border-bottom: 15px solid #75D578;
+}
+
+.subtitle {
+	text-align: center; 
+	margin-bottom: 3em;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: JejuMyeongjo;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container1 form {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+    min-width: 20em;
+    max-width: 30em;
+	justify-content: space-between;
+}
+
+.container1 label {
+	margin-top: 5px;
+	
+}
+
+.container1 input {
+	height: 4em;
+	margin: 10px;
+}
+
+.container1 button {
+	margin: 10px;
+	width: 26em;
+	height: 4em;
+}
+
+.valid {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: red;
+}

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@media(min-width:800px) {
+    
+    .diaryItem-img {
+    	width: 20em;
+    	height: 100%;
+    }
+
+    .diaryItem {
+    	width: 50%;
+    	height: 20em;
+    }
+
+}
+
+@media(max-width: 800px) {
+    
+    .diaryItem-img {
+    	width: 90%;;
+    }
+
+    .diaryItem {
+    	width: 90%;
+    }
+
+        .diaryItem-img {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+}
+
+
+.containerDiary {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+
+}
+
+.diaryItem {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
+}
+
+.shadow {
+	box-shadow: 2px 2px 5px #999;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.diaryItem-img img {
+	height: 100%;
+    width: 100%;
+}
+
+.diaryItem-content {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+}
+
+.plant-Dday {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.diaryTitle {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	margin-top: 33px;
+	margin-bottom: 7px;
+}
+
+/* .diaryTitle a {
+	text-decoration: none;
+	font-weight: bold; 텍스트두껍게
+	border-bottom: 5px solid #b4e7f8; 밑줄색깔
+	box-shadow: inset 0 -4px 0 #b4e7f8; 그림자색깔
+	color: inherit;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+} */
+
+.title {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 4em;
+	color: black;
+	text-align: center;
+
+	text-decoration: none;
+	font-weight: bold; /*텍스트두껍게*/
+	border-bottom: 5px solid #b4e7f8; /*밑줄색깔*/
+	box-shadow: inset 0 -4px 0 #b4e7f8; /*그림자색깔*/
+	color: inherit;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+
+
+}
+.test{
+	margin-left: auto;
+	margin-right: auto;
+
+	font-weight: bold;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	width: 30em;
+	text-align:center;
+	overflow: hidden;
+}
+
+.writeDay {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #5D5D5D;
+}
+
+.diary-header {
+	font-family: THE_Oegyeinseolmyeongseo;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 10px;
+}
+
+.writeDiary {
+	display: flex;
+
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.writeDiary button {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #28A745;
+	color: white;
+	height: 50px;
+	width: 170px;
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 15px;
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.writeDiary .btn1:hover {
+	background-color: #0E4D10;
+	color: white;
+}

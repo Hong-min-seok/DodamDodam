@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+.storybgImg {
+   width: 20%;
+   height: 20%;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.storyText {
+   padding-bottom: 5px;
+   /* border: 1px solid green; */
+   margin-top: auto;
+   margin-bottom: auto;
+   font-family: HoonDdukbokki;
+
+   width: 60%;
+   
+}
+
+.storyRow2 {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* @media ( max-width : 768px) { 모바일 버전 : 가로너비가 768px 이하부터 적용
+   .storyText {
+      width: 250px;
+   }
+   .storybgImg {
+      width: 280px;
+      height: 280px;
+   }
+} */
+
+
+
+@media ( max-width : 1330px) {
+   .storyText {
+      width: 45%;
+   }
+   .storybgImg {
+      width: auto;
+      height: 320px;
+   }
+}
+
+@media ( max-width : 606px) {
+   .storyText {
+      width: 35%;
+   }
+   .storybgImg {
+      width: auto;
+      height: 300px;
+   }
+}
+
+.storyContainer {
+   display: flex;
+   flex-direction:column;
+   width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5em;
+    margin-right: 10px;
+    margin-left: 10px;
+/*     border:1px solid red; */
+    justify-content: space-around;
+}
+
+.storyRow1 {
+/*     border:1px solid black; */ 
+    display: flex;
+    flex-wrap: wrap;
+    margin:15px;
+   padding:15px;
+    justify-content: space-around;
+}
+
+.storyRow2 {
+/*     border:1px solid black; */ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:5px;
+    margin-bottom:5px;
+   padding-top:5px;
+   padding-bottom:5px;
+   /*justify-content: space-around; */
+}
+
+.story-lg-4{
+   /* border:1px solid green; */
+   margin-bottom: 1.5rem;
+   text-align: center;
+   width:auto;
+    
+}
+
+.storyCircle{
+   /* border:1px solid gray; */
+   border-radius: 50%;
+   width:140px;
+   height:140px;
+}
+
+.storyBtn{
+   cursor: pointer;
+   color: #6c757d;
+    border-color: #6c757d;
+}
+
+a.carousel-control {
+/*   투명색을 수정
+  opacity: 0; */
+  color: black !important;
+   background: none !important;
+   filter: none !important; 
+   progid:none !important;
+}

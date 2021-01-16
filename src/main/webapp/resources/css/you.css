@@ -1,0 +1,170 @@
+@media(min-width: 600px) {
+    .container1 {
+        width: 80%;
+    }
+}
+
+@media(max-width: 800px) {
+    iframe {
+        width: 90%;
+    }
+
+    .text-muted {
+        font-size: 4vw;
+
+    }
+}
+
+.youtube {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.youtube_item {
+   display: flex;
+   width: 100%;
+   align-self: center;
+   justify-content: center;
+}
+
+iframe {
+    width: 50%;
+}
+
+#products {
+   background: #df3c17;
+   padding: 50px 0
+}
+
+#contact-us {
+   background: #71362a;
+   padding: 50px 0
+}
+
+#contact-us .right-products p {
+   max-width: 100%
+}
+
+.table-pricing {
+   padding: 40px;
+}
+
+.item-list p {
+   margin: 12px
+}
+
+.main {
+   background-image: url( "../img/top_image1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   font-family: HoonDdukbokki;
+}
+.mainn {
+   background-image: url( "../img/top_image2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   font-family: HoonDdukbokki;
+}
+.mainnn {
+   background-image: url( "../img/top_image3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+   font-family: HoonDdukbokki;
+}
+.list-unstyled h3 {
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 0.5;
+   letter-spacing: -0.9px;
+   font-family: HoonDdukbokki;
+}
+
+.list-unstyled {
+   width: 90%;
+   max-width: 1020px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 63px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   color: white;
+   font-family: HoonDdukbokki;
+}
+
+body {
+   font-family: HoonDdukbokki;
+}
+
+.item-list {
+   font-size: 15pt;
+}
+
+.accordion_box ul {
+   list-style:none;
+}
+
+.accordion-box {
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+p.accordion_title {
+   width: 100%;
+   font-size: 20pt;
+   line-height: 60px;
+   box-sizing: border-box;
+   padding: 0 10px;
+   padding-top:5px;
+}
+
+p.box2 {
+	border-top: 2px solid black;
+}
+
+p.box3 {
+	border-top: 2px solid black;
+}
+.con {
+   font-size: x-large;
+   padding-left: 3em;
+   padding-right: 3em;
+   padding-bottom: 1em;
+   display: none;
+}
+
+.col-md-4 {
+   margin-top: 2em;
+}
+
+.col-md-4 img {
+   width:30%;
+   margin-bottom: 2em;
+}
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-muted {
+    font-size: 16pt
+}

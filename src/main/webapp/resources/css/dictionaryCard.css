@@ -1,0 +1,27 @@
+@charset "UTF-8";
+      div {
+        box-sizing: border-box;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .flex-item {
+        border: 1px solid salmon;
+        flex-grow: 1;
+        height: 200px;
+      }
+      @media (min-width: 600px) {
+        .flex-container {
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+        .flex-item {
+          flex-basis: 50%;
+        }
+      }
+      @media (min-width: 900px) {
+        .flex-item {
+          flex-basis: 30%;
+        }
+      }

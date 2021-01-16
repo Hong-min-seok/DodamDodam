@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media(max-width: 560px) {
+	.container1 img {
+		display: none;
+	}
+}
+
+.title {
+	width:max-content;
+	text-align: center; 
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	font-family: JejuMyeongjo;
+	border-bottom: 15px solid #75D578;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container1 {
+	display: flex;
+	justify-content:center;
+    margin-top: 7em;
+}
+
+.container1 img {
+	width: 15%;
+	height: 15%;
+}
+
+.userinfo {
+	font-family: JejuMyeongjo;
+	font-size:14pt;
+	font-weight:bold;
+	margin-left: 3em;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.container2 {
+	display:flex;
+	justify-content: center;
+}
+
+.container2 button{
+	margin-top: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.container3 {
+	display:flex;
+	justify-content: flex-end;
+}

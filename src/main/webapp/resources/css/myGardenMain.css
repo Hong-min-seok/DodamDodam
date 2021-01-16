@@ -1,0 +1,843 @@
+@charset "UTF-8";
+
+@media ( min-width : 830px) {
+	.shelve2 {
+		display: none;
+	}
+	.shelve3 {
+		display: none;
+	}
+}
+
+@media ( min-width : 550px) {
+	.shelve4 {
+		display: none;
+	}
+	.shelve5 {
+		display: none;
+	}
+	.shelve6 {
+		display: none;
+	}
+	.shelve7 {
+		display: none;
+	}
+}
+
+@media ( min-width : 830px) {
+	.element1 {
+		position: absolute;
+		left: 120;
+		top: 180;
+	}
+	.element2 {
+		position: absolute;
+		left: 340;
+		top: 180;
+	}
+	.element3 {
+		position: absolute;
+		left: 560;
+		top: 180;
+	}
+	.element4 {
+		position: absolute;
+		left: 120;
+		top: 360;
+	}
+	.element5 {
+		position: absolute;
+		left: 340;
+		top: 360;
+	}
+	.element6 {
+		position: absolute;
+		left: 560;
+		top: 360;
+	}
+	.element7 {
+		position: absolute;
+		left: 120;
+		top: 0;
+	}
+	.element8 {
+		position: absolute;
+		left: 340;
+		top: 0;
+	}
+	.element9 {
+		position: absolute;
+		left: 560;
+		top: 0;
+	}
+	.namesign1 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 210
+	}
+	.name1 {
+		position: absolute;
+		top: 265;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign2 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 425
+	}
+	.name2 {
+		position: absolute;
+		top: 265;
+		left: 430;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign3 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 655
+	}
+	.name3 {
+		position: absolute;
+		top: 265;
+		left: 660;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign4 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 210
+	}
+	.name4 {
+		position: absolute;
+		top: 445;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign5 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 425
+	}
+	.name5 {
+		position: absolute;
+		top: 445;
+		left: 430;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign6 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 655
+	}
+	.name6 {
+		position: absolute;
+		top: 445;
+		left: 660;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign7 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 210
+	}
+	.name7 {
+		position: absolute;
+		top: 85;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign8 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 425
+	}
+	.name8 {
+		position: absolute;
+		top: 85;
+		left: 430;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign9 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 655
+	}
+	.name9 {
+		position: absolute;
+		top: 85;
+		left: 660;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+}
+
+@media ( max-width : 830px) {
+
+	.container1 {
+		flex-direction:column-reverse;
+	}
+
+	.info_container {
+		margin-bottom: 3em;
+	}
+	.element1 {
+		position: absolute;
+		left: 80;
+		top: 0;
+	}
+	.element2 {
+		position: absolute;
+		left: 300;
+		top: 0;
+	}
+	.element3 {
+		position: absolute;
+		left: 80;
+		top: 180;
+	}
+	.element4 {
+		position: absolute;
+		left: 300;
+		top: 180;
+	}
+	.element5 {
+		position: absolute;
+		left: 80;
+		top: 360;
+	}
+	.element6 {
+		position: absolute;
+		left: 300;
+		top: 360;
+	}
+	.element7 {
+		position: absolute;
+		left: 80;
+		top: 560;
+	}
+	.element8 {
+		position: absolute;
+		left: 300;
+		top: 560;
+	}
+	.element9 {
+		position: absolute;
+		left: 80;
+		top: 760;
+	}
+	.namesign1 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 170
+	}
+	.name1 {
+		position: absolute;
+		top: 83;
+		left: 175;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign2 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 385
+	}
+	.name2 {
+		position: absolute;
+		top: 83;
+		left: 390;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign3 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 170
+	}
+	.name3 {
+		position: absolute;
+		top: 265;
+		left: 175;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign4 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 385;
+	}
+	.name4 {
+		position: absolute;
+		top: 265;
+		left: 390;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign5 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 170;
+	}
+	.name5 {
+		position: absolute;
+		top: 445;
+		left: 175;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign6 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 385
+	}
+	.name6 {
+		position: absolute;
+		top: 445;
+		left: 390;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign7 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 630;
+		left: 170
+	}
+	.name7 {
+		position: absolute;
+		top: 643;
+		left: 175;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign8 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 630;
+		left: 385
+	}
+	.name8 {
+		position: absolute;
+		top: 643;
+		left: 390;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign9 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 830;
+		left: 170;
+	}
+	.name9 {
+		position: absolute;
+		top: 843;
+		left: 175;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+}
+
+@media ( max-width : 550px) {
+	.element1 {
+		position: absolute;
+		left: 120;
+		top: 0;
+	}
+	.element2 {
+		position: absolute;
+		left: 120;
+		top: 180;
+	}
+	.element3 {
+		position: absolute;
+		left: 120;
+		top: 360;
+	}
+	.element4 {
+		position: absolute;
+		left: 120;
+		top: 560;
+	}
+	.element5 {
+		position: absolute;
+		left: 120;
+		top: 760;
+	}
+	.element6 {
+		position: absolute;
+		left: 120;
+		top: 960;
+	}
+	.element7 {
+		position: absolute;
+		left: 120;
+		top: 1160;
+	}
+	.element8 {
+		position: absolute;
+		left: 120;
+		top: 1360;
+	}
+	.element9 {
+		position: absolute;
+		left: 120;
+		top: 1560;
+	}
+	.namesign1 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 70;
+		left: 210;
+	}
+	.name1 {
+		position: absolute;
+		top: 83;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign2 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 250;
+		left: 210;
+	}
+	.name2 {
+		position: absolute;
+		top: 265;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign3 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 430;
+		left: 210;
+	}
+	.name3 {
+		position: absolute;
+		top: 445;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign4 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 630;
+		left: 210;
+	}
+	.name4 {
+		position: absolute;
+		top: 645;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign5 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 830;
+		left: 210;
+	}
+	.name5 {
+		position: absolute;
+		top: 845;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign6 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 1030;
+		left: 210;
+	}
+	.name6 {
+		position: absolute;
+		top: 1045;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign7 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 1230;
+		left: 210;
+	}
+	.name7 {
+		position: absolute;
+		top: 1245;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign8 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 1430;
+		left: 210;
+	}
+	.name8 {
+		position: absolute;
+		top: 1445;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+	.namesign9 img {
+		position: absolute;
+		width: 70px;
+		height: 60px;
+		top: 1630;
+		left: 210;
+	}
+	.name9 {
+		position: absolute;
+		top: 1645;
+		left: 215;
+		color: white;
+		font-family: KyoboHand;
+		font-size: 14pt;
+		width: 60px;
+		text-align: center;
+	}
+}
+
+
+body {
+	background-color: #F7F6F2;
+}
+
+.title {
+	width: max-content;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	font-family: KyoboHand;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.title img {
+	width: 1em;
+}
+
+.title_container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	margin-bottom: 6em;
+	width: max-content;
+}
+
+.container1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.container2 {
+	display: flex;
+}
+
+.plant img {
+	width: 130px;
+	height: 130px;
+}
+
+.subcontainer1 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 10px;
+	max-width: 820px;
+}
+
+.subcontainer2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.shelve {
+	width: 100%;
+	min-width: 410px;
+	height: 600px;
+	margin-bottom: -50px;
+}
+
+.shelve2 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.shelve3 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.shelve4 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.shelve5 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.shelve6 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.shelve7 {
+	width: 100%;
+	min-width: 410px;
+	height: 200px;
+}
+
+.info_container {
+	height: 40em;
+	max-width: 40em;
+	min-width: 410px;
+	text-align: center;
+	font-family: JejuMyeongjo;
+	background-color: #FDF5E6;
+	padding-top: 2em;
+	padding-bottom: 0em;
+	border-radius: 50px;
+	box-shadow: 5px 5px 10px gray;
+	z-index: 1;
+}
+
+.plant {
+	width: 130px;
+	height: 130px;
+	cursor: pointer;
+}
+
+.shelve_container {
+	position: relative;
+}
+
+.plus:hover {
+	width: 60px;
+	height: 60px;
+}
+
+#flower_nick {
+	font-family: KyoboHand;
+	font-size: 20pt;
+	margin: 1em;
+}
+
+#flower_name {
+	font-family: KyoboHand;
+	font-size: 25pt;
+}
+
+#d-day {
+	font-family: KyoboHand;
+	font-size: 33pt;
+}
+
+.subnavmenu {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subnavmenu a:link {
+	text-decoration: none;
+	color: black
+}
+
+.subnavmenu a:visited {
+	text-decoration: none;
+	color: black
+}
+
+.subnavmenu a:active {
+	text-decoration: none;
+	color: black
+}
+
+.subnavmenu a:hover {
+	text-decoration: none;
+	color: green;
+	font-size: 23pt;
+}
+
+.subnavmenu {
+	width: 10em;
+	align-self: flex-end;
+	font-family: KyoboHand;
+	font-size: 20pt;
+}
+
+.info_submenu {
+	height: 10em;
+}
+
+.info_img img {
+	width: 50%;
+	margin: 10%
+}
+
+.info_title {
+	font-family: KyoboHand;
+	font-size: 30pt;
+	font-weight: bold;
+	color: #71C285;
+}
+
+.flower_img img {
+	width: 9em;
+	height: 9em;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.btn1 {
+	margin-top: 2em;
+}

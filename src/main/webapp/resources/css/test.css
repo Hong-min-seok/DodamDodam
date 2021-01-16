@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container1 {
+	display: flex;
+	background-color: gray;
+	justify-content: center;
+	padding: 10px;
+}
+
+.item1 {
+	background-color: red;
+	width: 40%;
+	height: 15em;
+	
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: green;
+	width: 50%;
+	
+}
+
+.item2 {
+	background-color: blue;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item3 {
+	background-color: yellow;
+}
+
+.item4 {
+	background-color: white;
+}

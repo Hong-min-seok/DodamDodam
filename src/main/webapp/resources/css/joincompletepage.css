@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.complete_container {
+	
+	margin-top: 10em;
+	text-align: center;
+	font-family: JejuMyeongjo;
+	background-color: #FDF5E6;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+	box-shadow: 5px 5px 10px gray;
+	min-width: 26em;
+    width: 60%;
+}
+
+.complete_container h3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.complete_container img {
+	width: 30%
+}
+
+.complete_container button {
+	width: 20em;
+	height: 4em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}

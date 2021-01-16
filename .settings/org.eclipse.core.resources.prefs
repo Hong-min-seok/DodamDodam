@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/co/Dodam/Controller/AndroidController.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Controller/DiaryController.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Controller/DictionaryController.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Controller/MemberController.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Controller/MyGardenController.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Dao/GardenDAO.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Dao/listDAO.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Service/Diary/Diary_ListService.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Service/Diary/Diary_WriteService.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Service/Dictionary/dictionaryListService.java=UTF-8
+encoding//src/main/java/com/co/Dodam/Service/MyGarden/inputMyplantsService.java=UTF-8

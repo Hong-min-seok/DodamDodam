@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #F7F6F2;
+}
+
+.header2 {
+	font-family: 40px;
+	font-weight: bold;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contaiserTitle {
+	font-family: THE_Oegyeinseolmyeongseo;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	z-index: 1;
+}
+
+.date-header {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.containerAll {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	z-index: 1;
+}
+
+.containerImg {
+
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	min-width: 26em;
+	padding: 20px;
+	z-index: 1;
+}
+
+.plantImg {
+    width: 100%;
+	margin-bottom: 2em;
+	z-index: 1;
+}
+
+.plantImg img {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	z-index: 1;
+}
+
+.writeDay {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 30px;
+	text-align: center;
+	z-index: 1;
+}
+
+.containerDiary {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	justify-content: start;
+    width: 50%;
+	z-index: 1;
+}
+
+.shadow {
+	box-shadow: 2px 2px 5px #999;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.diaryTitle {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	padding: 20px;
+	width: 100%;
+	min-width: 23em;
+	z-index: 1;
+}
+
+.diaryContent {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	min-width: 23em;
+	padding: 20px;
+	width: 100%;
+	z-index: 1;
+}
+
+pre {
+	background-color: white;
+	border: none;
+	white-space: pre-wrap;
+}
+
+.diaryReivew {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 23em;
+	padding: 20px;
+	width: 100%;
+	z-index: 1;
+}
+
+.diary-header {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 30px;
+	padding-bottom: 10px;
+	z-index: 1;
+}
+
+.diary-text {
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 16px;
+	font-weight: 200;
+	color: #4C4C4C;
+	word-break: break-all;
+	z-index: 1;
+}
+
+.container-flowerData {
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.flowerData {
+	display: flex;
+	font-family: THE_Oegyeinseolmyeongseo;
+	font-size: 16px;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.temp, .mois, .humi {
+	width: 50%;
+}
+
+.flowerData img {
+    width: 100%;
+	z-index: 1;
+}
+
+.data {
+    width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+.data p {
+	text-align: center;
+	z-index: 1;
+}
+
+.date-heaer {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+
+.view {
+    display: flex;
+    justify-content: flex-end;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+}
+
+.view span {
+	font-size: 17px;
+	z-index: 1;
+}
+
+.btn img {
+	width: 26px;
+	height: 26px;
+	z-index: 1;
+}
+
+.buttoncontainer {
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.buttoncontainer button {
+	width: 8em;
+	height: 3em;
+	margin: 1em;
+	border-radius:10px;
+	box-shadow: 0px 10px 15px -5px #539d54;
+
+}
+
+#btn_likeUp {
+	font-family: THE_Oegyeinseolmyeongseo
+}
+
+.like-content span {
+  color: #9d9da4;
+  font-family: monospace;
+}
+.like-content .btn-secondary {
+    display: block;
+    margin: 40px auto 0px;
+    text-align: center;
+    background: #ed2553;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    padding: 10px 17px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.like-content .btn-secondary:hover {
+    transform: translateY(-3px);
+}
+.like-content .btn-secondary .fa {
+    margin-right: 5px;
+}
+.animate-like {
+  animation-name: likeAnimation;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.65s;
+}
+@keyframes likeAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}

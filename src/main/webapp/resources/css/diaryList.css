@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@media(max-width: 1000px) {
+
+	#searchform {
+		top: 100%
+	}
+
+	#searchcontainer {
+		height: 7em;
+	}
+
+	#mydiarybtn {
+		left: 50%;
+		transform:translate(-50%, 0);
+	}
+}
+
+.author, .date {
+	color: #687479;
+	font-size: 13px;
+}
+
+
+.box-shadow {
+	-webkit-box-shadow: 0 0 30px #dddddd;
+	box-shadow: 0 0 30px #dddddd;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.box-shadow:hover {
+	-webkit-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.col-md-4 {
+	margin-bottom: 30px;
+
+}
+
+.row {
+	width:100%;
+}
+
+.card-text {
+  font-size: 25px;
+  font-weight: 600;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  word-wrap:normal;
+  width:12em;
+  overflow:hidden;
+}
+
+.col-md-4:hover {
+	opacity: 0.8;
+}
+
+.page_nav{
+	width:min-content;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12pt;
+	
+	
+}
+
+.footer {
+	padding-top: 1.4em;
+	font-size: 12pt;
+}
+
+.footer {
+	margin-top:0;
+}
+
+.jscroll-loading{
+	justify-content: center;
+	display:flex;
+}
+
+#MOVE_TOP_BTN {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 5%;
+	bottom: 50px;
+	display: none;
+	z-index: 999;
+}
+
+#searchcontainer {
+	display: flex;
+	position: relative;
+    margin-bottom: 8em;
+}
+
+#searchform {
+	display:flex;
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%, 0);
+	justify-content: space-between;
+	background-color: white;
+	width: 40em;
+	border: 1px solid gray;
+	border-radius: 100px;
+}
+
+#searchcriteria {
+	width: 10em;
+	height: 5em;
+	border: none;
+	margin-left: 2em;
+	border-radius: 100px;
+
+}
+
+#searchcriteria:focus {
+    outline: none;
+}
+
+#searchtext {
+    height: 5em;
+    width: 20em;
+    border: none;
+	border-radius: 100px;
+}
+
+#searchtext:focus {
+    outline: none;
+}
+
+#diarysearchbtn {
+
+	width: 5em;
+	height: 5em;
+	border: none;
+	border-radius: 100px;
+	background: url(../img/icon/search.png) no-repeat;
+	background-size: 2em;
+	background-position: center;
+}
+
+#diarysearchbtn:focus {
+    outline: none;
+}
+
+#mydiarybtn {
+	position:absolute;
+	right: 15%;
+	border-radius: 5px;
+	width: 7em;
+	height: 3.5em;
+	font-size: 11pt;
+}
+
+.ne_imgcontianer {
+	width: 40%;
+	margin-top: 13em;
+	margin-bottom: 10em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.ne_imgcontianer img {
+    width: 100%;
+}
